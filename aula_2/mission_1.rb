@@ -38,7 +38,7 @@ teste_hash[:tipo]
 # + (adição)
 -10 + 10
 # – (subtração)
--10 – 10
+-10 - 10
 # * (multiplicação)
 4 * 7
 # / (divisão)
@@ -58,6 +58,6 @@ n1 = gets.chomp.to_i
 
 print 'Digite o segundo número:'
 n2 = gets.chomp.to_i
-resultado = teste + teste2
+resultado = n1 + n2
 
 puts "A soma entre eles é #{resultado}"
